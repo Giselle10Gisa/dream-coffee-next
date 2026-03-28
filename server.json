@@ -2,53 +2,111 @@
     "coffeeShops": [
         { 
             "id": 1,
-            "name": "cafe-1",
-            "image": "/images/assets/cafeterias/cafe-1.jpg" 
+            "name": "The Mocha Mystery",
+            "image": "/images/assets/cafeterias/cafe-1.jpg",
+            "rating": 2.5,
+            "items": [
+                "/images/assets/csItems/carrot-cake.png",
+                "/images/assets/csItems/coffee-2.png",
+                "/images/assets/csItems/coffee.png"
+            ]
         },
         { 
             "id": 2,
-            "name": "cafe-2",
-            "image": "/images/assets/cafeterias/cafe-2.jpg" 
+            "name": "Perky Penguin Espresso",
+            "image": "/images/assets/cafeterias/cafe-2.jpg",
+            "rating": 3,
+            "items": [
+                "/images/assets/csItems/carrot-cake.png",
+                "/images/assets/csItems/frappe.png",
+                "/images/assets/csItems/matcha.png"
+            ]
         },
         { 
             "id": 3,
-            "name": "cafe-3",
-            "image": "/images/assets/cafeterias/cafe-3.jpg" 
+            "name": "Velvet Bean Café",
+            "image": "/images/assets/cafeterias/cafe-3.jpg",
+            "rating": 3.5,
+            "items": [
+                "/images/assets/csItems/coffee.png",
+                "/images/assets/csItems/cupcake.png",
+                "/images/assets/csItems/frappe.png",
+                "/images/assets/csItems/matcha.png"
+            ]
         },
         { 
             "id": 4,
-            "name": "cafe-4",
-            "image": "/images/assets/cafeterias/cafe-4.jpg" 
+            "name": "Whisk & Brew",
+            "image": "/images/assets/cafeterias/cafe-4.jpg",
+            "rating": 1,
+            "items": [
+                "/images/assets/csItems/carrot-cake.png"
+            ]
         },
         { 
             "id": 5,
-            "name": "cafe-5",
-            "image": "/images/assets/cafeterias/cafe-5.jpg" 
+            "name": "Steamy Stories Coffee House",
+            "image": "/images/assets/cafeterias/cafe-5.jpg",
+            "rating": 4.5,
+            "items": [
+                "/images/assets/csItems/carrot-cake.png",
+                "/images/assets/csItems/matcha.png"
+            ]
         },
         { 
             "id": 6,
-            "name": "cafe-6",
-            "image": "/images/assets/cafeterias/cafe-6.jpg" 
+            "name": "Cup of Creavity",
+            "image": "/images/assets/cafeterias/cafe-6.jpg",
+            "rating": 5,
+            "items": [
+                "/images/assets/csItems/carrot-cake.png",
+                "/images/assets/csItems/frappe.png",
+                "/images/assets/csItems/matcha.png"
+            ]
         },
         { 
             "id": 7,
-            "name": "cafe-7",
-            "image": "/images/assets/cafeterias/cafe-7.jpg" 
+            "name": "Brewed Awakening",
+            "image": "/images/assets/cafeterias/cafe-7.jpg",
+            "rating": 2.5,
+            "items": [
+                "/images/assets/csItems/carrot-cake.png",
+                "/images/assets/csItems/frappe.png",
+                "/images/assets/csItems/matcha.png"
+            ]
         },
         { 
             "id": 8,
-            "name": "cafe-8",
-            "image": "/images/assets/cafeterias/cafe-8.jpg" 
+            "name": "Sip 'n Spin Latte Lounge",
+            "image": "/images/assets/cafeterias/cafe-8.jpg",
+            "rating": 1.5,
+            "items": [
+                "/images/assets/csItems/coffee.png",
+                "/images/assets/csItems/cupcake.png",
+                "/images/assets/csItems/frappe.png",
+                "/images/assets/csItems/matcha.png"
+            ]
         },
         { 
             "id": 9,
-            "name": "cafe-9",
-            "image": "/images/assets/cafeterias/cafe-9.jpg" 
+            "name": "Fantasia French Press",
+            "image": "/images/assets/cafeterias/cafe-9.jpg",
+            "rating": 3,
+            "items": [
+                "/images/assets/csItems/carrot-cake.png",
+                "/images/assets/csItems/coffee-2.png"
+            ]
         },
         { 
             "id": 10,
-            "name": "cafe-10",
-            "image": "/images/assets/cafeterias/cafe-10.jpg" 
+            "name": "Dream Bean Café",
+            "image": "/images/assets/cafeterias/cafe-10.jpg",
+            "rating": 4.5,
+            "items": [
+                "/images/assets/csItems/carrot-cake.png",
+                "/images/assets/csItems/coffee-2.png",
+                "/images/assets/csItems/matcha.png"
+            ]
         }
     ]
 }

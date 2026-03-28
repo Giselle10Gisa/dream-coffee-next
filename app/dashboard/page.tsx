@@ -1,38 +1,18 @@
 import CarouselDashboard from "../components/carousel";
 import CSOptions from "../components/csOptions";
 import Header from "../components/header";
+import { withPageAuthRequired } from "@auth0/nextjs-auth0";
 
-export default async function MainClient() {
-
+export default withPageAuthRequired(async function MainClient() {
   return (
-    <section className="bg-white">
+    <div className="bg-white">
       <div className="sticky top-0 z-10">
-        <Header colorBg="bg-rose-200"/>
+        <Header colorBg="bg-rose-200" sideBarColor="bg-[#E78C96]" cartIcon="/images/icons/cart.svg" sideBarOpenIcon="/images/icons/sidebar-open.svg"/>
       </div>
-      <CarouselDashboard offset={2} showArrows={false} width={"90%"} height={"500px"} margin={"0 auto"}/>
-      <div className="text-pink-500 text-center items-center justify-center flex w-full flex-col">
-        <div className="bg-black">
-          <CSOptions/>
-        </div>
-        <p className="pb-96">
-          este será p dashboard
-        </p>
-        <p className="pb-96">
-          este será p dashboard
-        </p>
-        <p className="pb-96">
-          este será p dashboard
-        </p>
-        <p className="pb-96">
-          este será p dashboard
-        </p>
-        <p className="pb-96">
-          este será p dashboard
-        </p>
-        <p className="pb-96">
-          este será p dashboard
-        </p>
+      <CarouselDashboard offset={4} showArrows={false} width={"90%"} height={"500px"} margin={"0 auto"}/>
+      <div className="lg:mt-24 mt-8">
+        <CSOptions/>
       </div>
-    </section>
+    </div>
   );
-}
+}, { returnTo: "/dashboard" })
